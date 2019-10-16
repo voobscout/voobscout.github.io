@@ -30,7 +30,7 @@ table {
 }
 
 .modal-dialog {
-    min-width: 768px;
+    /* min-width: 768px; */
     vertical-align: middle;
     horizontal-align: middle;
 }
