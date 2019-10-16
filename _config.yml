@@ -1,0 +1,1157 @@
+# Site settings
+title: Alexander Bortman - DevOps Engineer & Cloud Architect
+name: DevOps Engineer & Cloud Architect
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/voobscout
+ # - title: Blog
+ #   url: http://automateddeveloper.blogspot.com/
+ # - title: StackOverflow
+ #   url: http://stackoverflow.com/users/258813/rhinds
+ # - title: DZone
+ #   url: https://dzone.com/users/899489/rhinds.html
+ # - title: LinkedIn
+ #   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+
+#Any buzzword skills you want to include
+skills:
+ - Scala
+ - Microservices
+ - Product management
+ - API design
+ - REST
+ - Technical Architecture
+
+skills_with_links:
+  Languages & Scripting:
+  - uri: https://www.ruby-lang.org
+    img: ruby.png
+    name: Ruby
+  - uri: https://crystal-lang.org
+    img: crystal-lang.png
+    name: Crystal
+  - uri: https://www.gnu.org/software/guile
+    img: guile.png
+    name: Guile
+  - uri: https://common-lisp.net
+    img: lisp.png
+    name: Common LISP
+  - uri: https://www.python.org
+    img: python.png
+    name: Python
+  - uri: https://www.gnu.org/software/bash
+    img: bash-shell-logo.jpg
+    name: Bash
+
+  Automation & Configuration:
+  - uri: https://www.ansible.com/
+    img: ansible.svg
+    name: Ansible
+  - uri: https://aws.amazon.com/cloudformation/
+    img: aws-cloudformation.svg
+    desc: AWS CloudFormation provides a common language for you to describe and provision
+      all the infrastructure resources in your cloud environment.
+    name: AWS CloudFormation
+  - uri: https://bosh.io/docs/
+    img: cloudfoundry-bosh.svg
+    name: BOSH
+  - uri: https://cfengine.com/
+    img: cf-engine.svg
+    name: CFEngine
+  - uri: https://www.chef.io/
+    img: chef_infra.svg
+    name: Chef Infra
+  - uri: https://cloudify.co
+    img: cloudify.svg
+    name: Cloudify
+  - uri: https://rebar.digital/
+    img: digitalrebar.svg
+    name: Digital Rebar
+  - uri: https://theforeman.org/
+    img: foreman.svg
+    name: Foreman
+  - uri: https://jaas.ai/
+    img: juju.svg
+    name: Juju
+  - uri: https://kubeedge.io/en/
+    img: kube-edge.svg
+    name: KubeEdge
+  - uri: https://github.com/linuxkit/linuxkit
+    img: linux-kit.svg
+    name: LinuxKit
+  - uri: https://www.openstack.org/
+    img: open-stack.svg
+    name: OpenStack
+  - uri: https://www.pulumi.com/
+    img: pulumi.svg
+    name: Pulumi
+  - uri: https://puppet.com/
+    img: puppet.svg
+    name: Puppet
+  - uri: https://www.terraform.io/
+    img: terraform.svg
+    name: Terraform
+  - uri: https://www.vmware.com/products/vsphere.html
+    img: vmware-vsphere.svg
+    desc: vSphere is the industry-leading server virtualization software and the heart
+      of a modern SDDC, helping you run, manage, connect, and secure your applications
+      in a common operating environment across clouds.
+    name: VMware vSphere
+
+  Container Registry:
+  - uri: https://azure.microsoft.com/en-us/services/container-registry/
+    img: azure-registry.svg
+    desc: Azure Container Registry allows you to store images for all types of container
+      deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services such
+      as App Service, Batch, Service Fabric, and others.
+    name: Azure Registry
+  - uri: https://codefresh.io/docs/docs/docker-registries/codefresh-registry/
+    img: codefresh-registry.svg
+    desc: When creating a Codefresh account you will automatically get access to your
+      Codefresh Registry which stores and lets you distribute docker images.
+    name: Codefresh Registry
+  - uri: https://docs.docker.com/registry/
+    img: docker-registry.svg
+    name: Docker Registry
+  - uri: https://d7y.io/en-us/
+    img: dragonfly.svg
+    name: Dragonfly
+  - uri: https://cloud.google.com/container-registry/
+    img: google-container-registry.svg
+    desc: Container Registry is a single place for your team to manage Docker images,
+      perform vulnerability analysis, and decide who can access what with fine-grained
+      access control.
+    name: Google Container Registry
+  - uri: https://goharbor.io/
+    img: harbor.svg
+    name: Harbor
+  - uri: https://www.ibm.com/cloud/container-registry
+    img: ibm-cloud-container-registry.svg
+    desc: Detect vulnerabilities before images are ever deployed to containers. Store
+      and distribute Docker images in your managed private registry.
+    name: IBM Cloud Container Registry
+  - uri: https://jfrog.com/artifactory/
+    img: j-frog-artifactory.svg
+    desc: Shipping updates continuously and automatically has become a critical element
+      of any successful operation. JFrog is revolutionizing the software world with
+      the practice of Continuous Update, with a speed and continuity that forever
+      changes the way organizations manage and release software.
+    name: JFrog Artifactory
+  - uri: https://eng.uber.com/introducing-kraken/
+    img: kraken.svg
+    name: Kraken
+  - uri: http://port.us.org/
+    img: portus.svg
+    name: Portus
+  - uri: https://quay.io/
+    img: quay.svg
+    desc: Ensure your apps are stored privately, with access that you control. Quay
+      is teamwork optimized, with powerful access controls.
+    name: Quay
+  - uri: https://aws.amazon.com/ecr/
+    img: amazon-ecr.svg
+    desc: Amazon Elastic Container Registry (ECR) is a fully-managed Docker container
+      registry that makes it easy for developers to store, manage, and deploy Docker
+      container images.
+    name: Amazon Elastic Container Registry (ECR)
+
+  Security & Compliance:
+  - uri: https://www.jetstack.io/open-source/
+    img: jetstack-cert-manager.svg
+    name: cert-manager
+  - uri: https://github.com/theupdateframework/notary
+    img: notary.svg
+    name: Notary
+  - uri: https://www.inspec.io/
+    img: chef_inspec.svg
+    name: Chef InSpec
+  - uri: https://www.alcide.io/
+    img: alcide.svg
+    desc: Alcide provides dev-to-production security for workloads running in Kubernetes
+      & Istio
+    name: Alcide
+  - uri: https://coreos.com/clair/docs/latest/
+    img: clair.svg
+    name: Clair
+  - uri: https://falco.org/
+    img: falco.svg
+    name: Falco
+  - uri: https://fossa.com/
+    img: fossa.svg
+    name: Fossa
+  - uri: https://grafeas.io/
+    img: grafeas.svg
+    name: Grafeas
+  - uri: https://in-toto.io
+    img: in-toto-stacked-color.svg
+    name: in-toto
+  - uri: https://github.com/aquasecurity/kube-bench
+    img: kube-bench.svg
+    name: kube-bench
+  - uri: https://github.com/aquasecurity/kube-hunter
+    img: kube-hunter.svg
+    name: kube-hunter
+
+  Key Management:
+  - uri: https://www.vaultproject.io/
+    img: vault.svg
+    name: Vault
+  - uri: https://gravitational.com/teleport
+    img: teleport.svg
+    name: Teleport
+  - uri: https://www.keycloak.org
+    img: keycloak.svg
+    name: Keycloak
+  - uri: https://square.github.io/keywhiz/
+    img: square-keywhiz.svg
+    name: Square Keywhiz
+  - uri: https://www.conjur.org
+    img: conjur.svg
+    name: CyberArk Conjur
+  - uri: https://www.ory.sh/
+    img: ory-hydra.svg
+    name: ORY Hydra
+  - uri: https://www.pomerium.io/
+    img: pomerium.svg
+    name: Pomerium
+  - uri: https://spiffe.io/
+    img: spiffe.svg
+    name: SPIFFE
+  - uri: https://spiffe.io/spire/
+    img: spire.svg
+    name: SPIRE
+
+  Cloud Native Storage:
+  - uri: https://azure.microsoft.com/en-us/services/storage/disks/
+    img: azure-disk-storage.svg
+    desc: Get HDD/SSD durability, scalability, availability, and security you need
+      for all your workloads—from mission-critical workloads to test scenarios.
+    name: Azure Disk Storage
+  - uri: https://velero.io
+    img: project-velero.svg
+    name: Velero
+  - uri: https://www.gluster.org/
+    img: gluster.svg
+    name: Gluster
+  - uri: https://azure.microsoft.com/en-us/services/storage/disks/
+    img: google-persistent-disk.svg
+    desc: Google Persistent Disk is durable and high performance block storage for
+      the Google Cloud Platform. Persistent Disk provides SSD and HDD storage which
+      can be attached to instances running in either Google Compute Engine or Google
+      Kubernetes Engine. Storage volumes can be transparently resized, quickly backed
+      up, and offer the ability to support simultaneous readers.
+    name: Google Persistent Disk
+  - uri: https://leo-project.net/leofs/
+    img: leofs.svg
+    name: LeoFS
+  - uri: https://min.io/
+    img: logo.svg
+    name: MinIO
+  - uri: https://moosefs.com/
+    img: moosefs.svg
+    name: MooseFS
+  - uri: https://www.netapp.com/us/products/storage-systems/index.aspx
+    img: netapp.svg
+    desc: Build your Data Fabric on the industry’s broadest portfolio of all-flash,
+      hybrid-flash, and object storage systems.
+    name: NetApp
+  - uri: https://www.openebs.io/
+    img: openebs.svg
+    name: OpenEBS
+  - uri: https://www.openio.io/
+    img: openio.svg
+    name: OpenIO
+  - uri: https://portworx.com/
+    img: portworx.svg
+    name: Portworx
+  - uri: https://ceph.io/
+    img: ceph.svg
+    name: Ceph
+  - uri: https://rook.io/
+    img: rook.svg
+    name: Rook
+
+  Container Runtime:
+  - uri: https://containerd.io/
+    img: containerd.svg
+    name: containerd
+  - uri: https://cri-o.io/
+    img: cri-o.svg
+    name: CRI-O
+  - uri: https://firecracker-microvm.github.io/
+    img: firecracker.svg
+    name: Firecracker
+  - uri: https://gvisor.dev/
+    img: gvisor.svg
+    name: gVisor
+  - uri: https://katacontainers.io/
+    img: kata.svg
+    name: Kata Containers
+  - uri: https://linuxcontainers.org/lxd/
+    img: lxd.svg
+    name: lxd
+  - uri: https://github.com/alibaba/pouch
+    img: pouch.svg
+    name: Pouch
+  - uri: https://www.opencontainers.org/
+    img: oci-runc.svg
+    name: runc
+  - uri: https://sylabs.io/
+    img: singularity.svg
+    name: Singularity
+
+  Cloud Native Network:
+  - uri: https://networkbuilders.intel.com/network-technologies/container-experience-kits
+    img: multus.svg
+    name: Multus
+  - uri: https://networkservicemesh.io/
+    img: network-service-mesh.svg
+    name: Network Service Mesh
+  - uri: https://www.openvswitch.org/
+    img: open-v-switch.svg
+    name: Open vSwitch
+  - uri: https://www.projectcalico.org/
+    img: project-calico.svg
+    name: Project Calico
+  - uri: https://www.weave.works/oss/net/
+    img: weave-net.svg
+    name: Weave Net
+  - uri: https://cilium.io/
+    img: cilium.svg
+    name: Cilium
+  - uri: https://contivpp.io
+    img: contiv.svg
+    name: Contiv
+  - uri: https://github.com/coreos/flannel/
+    img: flannel.svg
+    name: Flannel
+  - uri: https://tungsten.io
+    img: tungsten-fabric.svg
+    name: Tungsten Fabric
+  - uri: https://github.com/alauda/kube-ovn
+    img: kube-ovn.svg
+    name: Kube-OVN
+  - uri: https://www.kube-router.io
+    img: logo-full.svg
+    name: Kube-router
+
+  Scheduling & Orchestration:
+  - uri: https://mesos.apache.org/
+    img: apache-mesos.svg
+    name: Apache Mesos
+  - uri: https://docs.microsoft.com/en-us/azure/service-fabric/
+    img: azure-service-fabric.svg
+    name: Azure Service Fabric
+  - uri: https://crossplane.io/
+    img: crossplane.svg
+    name: Crossplane
+  - uri: https://docs.docker.com/engine/swarm/
+    img: dockerswarm.svg
+    name: Docker Swarm
+  - uri: https://kubernetes.io/
+    img: kubernetes.svg
+    desc: Kubernetes is an open-source system for automating deployment, scaling,
+      and management of containerized applications
+    name: Kubernetes
+  - uri: https://www.nomadproject.io/
+    img: nomad.svg
+    name: Nomad
+  - uri: https://volcano.sh/
+    img: volcano.svg
+    name: Volcano
+
+  Coordination & Service Discovery:
+  - uri: https://zookeeper.apache.org/
+    img: apache-zookeeper.svg
+    name: Apache Zookeeper
+  - uri: https://coredns.io/
+    img: core-dns.svg
+    name: CoreDNS
+  - uri: https://github.com/etcd-io
+    img: etcd.svg
+    name: etcd
+  - uri: https://nacos.io/en-us/
+    img: alibaba-nacos.svg
+    name: Nacos
+
+  Remote Procedure Call:
+  - uri: https://thrift.apache.org/
+    img: apache-thrift.svg
+    name: Apache Thrift
+  - uri: https://grpc.io/
+    img: grpc.svg
+    name: gRPC
+
+  Service Proxy:
+  - uri: https://www.nginx.com/
+    img: nginx.svg
+    name: NGINX
+  - uri: https://www.haproxy.com/
+    img: haproxy.svg
+    name: HAProxy
+  - uri: https://metallb.universe.tf
+    img: metallb.svg
+    name: MetalLB
+  - uri: https://traefik.io/
+    img: traefik.svg
+    name: Traefik
+  - uri: https://www.envoyproxy.io
+    img: envoy.svg
+    name: Envoy
+  - uri: https://www.f5.com/
+    img: f5.svg
+    name: F5
+  - uri: https://projectcontour.io
+    img: project-contour.svg
+    name: Contour
+  - uri: https://github.com/vmware-tanzu/gimbal
+    img: project-gimbal.svg
+    name: Gimbal
+
+  API Gateway:
+  - uri: https://konghq.com/
+    img: kong.svg
+    name: Kong
+  - uri: https://www.krakend.io/
+    img: krakend.svg
+    name: KrakenD
+  - uri: https://www.getambassador.io/
+    img: ambassador.svg
+    name: Ambassador
+  - uri: https://accenture.github.io/reactive-interaction-gateway/
+    img: reactive-interaction-gateway.svg
+    name: Reactive Interaction Gateway
+  - uri: https://tyk.io/
+    img: tyk.svg
+    name: Tyk
+
+  Service Mesh:
+  - uri: https://www.consul.io/
+    img: consul.svg
+    name: Consul
+  - uri: https://istio.io/
+    img: istio.svg
+    name: Istio
+  - uri: https://linkerd.io/
+    img: linkerd.svg
+    name: Linkerd
+  - uri: https://kuma.io
+    img: kuma.svg
+    name: Kuma
+  - uri: https://mae.sh/
+    img: maesh.svg
+    name: Maesh
+
+  Database:
+  - uri: https://hadoop.apache.org/
+    img: apache-hadoop.svg
+    name: Apache Hadoop
+  - uri: https://ignite.apache.org
+    img: apache-ignite.svg
+    name: Apache Ignite
+  - uri: https://cassandra.apache.org/
+    img: cassandra.svg
+    name: Cassandra
+  - uri: https://www.cockroachlabs.com/
+    img: cockroach-labs-stacked.svg
+    name: CockroachDB
+  - uri: https://www.couchbase.com/
+    img: couchbase.svg
+    name: Couchbase
+  - uri: https://mariadb.com/
+    img: mariadb.svg
+    name: MariaDB
+  - uri: https://www.mongodb.com/
+    img: mongo-db.svg
+    name: MongoDB
+  - uri: https://www.oracle.com/mysql/
+    img: my-sql.svg
+    name: MySQL
+  - uri: https://orientdb.com/why-orientdb/
+    img: orient-db.svg
+    name: OrientDB
+  - uri: https://www.percona.com/software/mysql-database/percona-server
+    img: percona.svg
+    name: Percona Server for MySQL
+  - uri: https://www.postgresql.org/
+    img: postgre-sql.svg
+    name: PostgreSQL
+  - uri: https://prestosql.io/
+    img: presto.svg
+    name: Presto
+  - uri: https://redis.io/
+    img: redis.svg
+    name: Redis
+  - uri: https://rethinkdb.com/
+    img: rethinkdb.svg
+    name: RethinkDB
+
+  Streaming & Messaging:
+  - uri: https://rocketmq.apache.org/
+    img: apache-rocket-mq.svg
+    name: Apache RocketMQ
+  - uri: https://azure.microsoft.com/en-us/services/event-hubs/
+    img: azure-event-hubs.svg
+    desc: 'Event Hubs is a fully managed, real-time data ingestion service that’s
+      simple, trusted, and scalable. '
+    name: Azure Event Hubs
+  - uri: https://cloudevents.io/
+    img: cloud-events.svg
+    name: CloudEvents
+  - uri: https://flink.apache.org/
+    img: flink.svg
+    name: Flink
+  - uri: https://cloud.google.com/dataflow/
+    img: google-cloud-dataflow.svg
+    desc: Cloud Dataflow is a fully-managed service for transforming and enriching
+      data in stream (real time) and batch (historical) modes with equal reliability
+      and expressiveness -- no more complex workarounds or compromises needed. And
+      with its serverless approach to resource provisioning and management, you have
+      access to virtually limitless capacity to solve your biggest data processing
+      challenges, while paying only for what you use.
+    name: Google Cloud Dataflow
+  - uri: https://kafka.apache.org/
+    img: kafka.svg
+    name: Kafka
+  - uri: http://openmessaging.cloud/
+    img: openmessaging.svg
+    desc: Cloud-oriented, simple, flexible, vendor-neutral and language-independent
+      standards for messaging
+    name: OpenMessaging
+  - uri: https://www.rabbitmq.com/
+    img: rabbit-mq.svg
+    name: RabbitMQ
+
+  Application Definition & Image Build:
+  - uri: https://bitnami.com/stacksmith
+    img: bitnami.svg
+    desc: Stacksmith enables application packaging and automated continuous maintenance
+      for multiple clouds.
+    name: Bitnami Stacksmith
+  - uri: https://buildpacks.io/
+    img: buildpacks.svg
+    name: Buildpacks
+  - uri: https://www.habitat.sh/
+    img: chef_habitat.svg
+    name: Chef Habitat
+  - uri: https://www.deployhub.com/
+    img: deploy-hub.svg
+    name: DeployHub
+  - uri: https://devspace.cloud
+    img: devspace.svg
+    name: DevSpace
+  - uri: https://docs.docker.com/compose/
+    img: docker-compose.svg
+    name: Docker Compose
+  - uri: https://helm.sh/
+    img: helm.svg
+    name: Helm
+  - uri: https://github.com/GoogleContainerTools/kaniko
+    img: kaniko.svg
+    name: kaniko
+  - uri: https://kubevirt.io/
+    img: kubevirt-stacked-color.svg
+    name: KubeVirt
+  - uri: https://github.com/Mirantis/virtlet
+    img: virtlet.svg
+    name: Mirantis Virtlet
+  - uri: https://www.openservicebrokerapi.org/
+    img: openservicebrokerapi.svg
+    name: Open Service Broker API
+  - uri: https://www.openapis.org/
+    img: openapi.svg
+    name: OpenAPI
+  - uri: https://coreos.com/operators/
+    img: operator-framework.svg
+    name: Operator Framework
+  - uri: https://www.packer.io/
+    img: packer.svg
+    name: Packer
+  - uri: https://github.com/GoogleContainerTools/skaffold
+    img: skaffold.svg
+    name: Skaffold
+  - uri: https://www.telepresence.io/
+    img: telepresence.svg
+    name: Telepresence
+  - uri: https://tilt.dev/
+    img: tilt.svg
+    name: Tilt
+
+  Continuous Integration & Delivery:
+  - uri: https://aws.amazon.com/codepipeline/
+    img: aws-code-pipeline.svg
+    desc: AWS CodePipeline is a fully managed continuous delivery service that helps
+      you automate your release pipelines for fast and reliable application and infrastructure
+      updates. CodePipeline automates the build, test, and deploy phases of your release
+      process every time there is a code change, based on the release model you define.
+    name: AWS CodePipeline
+  - uri: https://azure.microsoft.com/en-us/services/devops/pipelines/
+    img: azure-pipelines.svg
+    desc: Continuously build, test, and deploy to any platform and cloud
+    name: Azure Pipelines
+  - uri: https://brigade.sh/
+    img: brigade.svg
+    name: Brigade
+  - uri: https://circleci.com/
+    img: circle-ci.svg
+    name: CircleCI
+  - uri: https://github.com/features/actions
+    img: github-actions.svg
+    name: GitHub Actions
+  - uri: https://gitkube.sh/
+    img: gitkube.svg
+    name: Gitkube
+  - uri: https://about.gitlab.com/
+    img: gitlab.svg
+    name: GitLab
+  - uri: https://www.gocd.org/
+    img: gocd.svg
+    name: GoCD
+  - uri: https://cloud.google.com/cloud-build/
+    img: google-cloud-build.svg
+    desc: Cloud Build lets you build software quickly across all languages. Get complete
+      control over defining custom workflows for building, testing, and deploying
+      across multiple environments such as VMs, serverless, Kubernetes, or Firebase.
+    name: Google Cloud Build
+  - uri: https://travis-ci.com/
+    img: travis-ci.svg
+    name: Travis CI
+  - uri: https://docs.flagger.app
+    img: weave-flagger.svg
+    name: Weave Flagger
+  - uri: https://harness.io
+    img: harness.svg
+    name: Harness.io
+  - uri: https://semaphoreci.com/
+    img: semaphore.svg
+    name: Semaphore
+  - uri: https://www.shippable.com/
+    img: shippable.svg
+    name: Shippable
+
+  Certified Kubernetes:
+  - uri: https://www.agilestacks.com
+    img: agile-01.svg
+    name: Agile Stacks DevOps Automation Platform
+  - uri: https://ubuntu.com/kubernetes
+    img: canonical-charmed-distribution-of-kubernetes.svg
+    desc: This is pure Kubernetes tested across the widest range of clouds with modern
+      metrics and monitoring, brought to you by the people who deliver Ubuntu.
+    name: Canonical Charmed Distribution of Kubernetes
+  - uri: https://gravitational.com/gravity/
+    img: gravity.svg
+    name: Gravity
+  - uri: https://k3s.io
+    img: k3s.svg
+    desc: Lightweight Kubernetes
+    name: k3s
+  - uri: https://github.com/kinvolk/kube-spawn
+    img: kube-spawn.svg
+    desc: A tool for creating multi-node Kubernetes clusters on a Linux machine using
+      kubeadm & systemd-nspawn. Brought to you by the Kinvolk team.
+    name: kube-spawn
+  - uri: https://github.com/schu/kubedee
+    img: kubedee.svg
+    desc: Fast multi-node Kubernetes development and test clusters on LXD.
+    name: kubedee
+  - uri: https://www.zenko.io/metalk8s/
+    img: metalk8s.svg
+    desc: An opinionated Kubernetes distribution with a focus on long-term on-prem
+      deployments
+    name: MetalK8s
+  - uri: https://microk8s.io
+    img: microk8s.svg
+    desc: An easy to install, single node local Kubernetes.
+    name: MicroK8s
+  - uri: https://www.mirantis.com/software/kubernetes/
+    img: mirantis.svg
+    desc: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes
+      for enterprise-grade container orchestration.
+    name: Mirantis Cloud Platform
+  - uri: https://rancher.com
+    img: rancher.svg
+    desc: Deploy Rancher’s Kubernetes distro anywhere or launch cloud Kubernetes services
+      from Google, Amazon or Microsoft.
+    name: Rancher Kubernetes
+  - uri: https://www.openshift.com/
+    img: red-hat-open-shift.svg
+    desc: Red Hat® OpenShift is a container application platform that brings docker
+      and Kubernetes to the enterprise.
+    name: Red Hat OpenShift
+  - uri: https://clusterfrak-dynamics.github.io/symplegma/
+    img: symplegma.svg
+    desc: Symplegma (from greek σύμπλεγμα) is a simple set of Ansible playbooks to
+      deploy Kubernetes with Kubeadm
+    name: Symplegma
+  - uri: https://typhoon.psdn.io/
+    img: typhoon.svg
+    desc: Typhoon distributes upstream Kubernetes, architectural conventions, and
+      cluster addons, much like a GNU/Linux distribution provides the Linux kernel
+      and userspace components.
+    name: Typhoon
+  - uri: https://github.com/msazurestackworkloads/aks-engine
+    img: microsoft-azure.svg
+    name: AKS Engine for Azure Stack
+  - uri: https://www.alibabacloud.com/product/container-service
+    img: alibaba-cloud-container-service-for-kubernetes.svg
+    desc: Container Services Provides high-performance, scalable container application
+      management services that enable lifecycle management of containerized applications
+      with Docker and Kubernetes, multiple application deployment methods and continuous
+      delivery capabilities, and support for microservices architecture.
+    name: Alibaba Cloud Container Service for Kubernetes
+  - uri: https://cloud.baidu.com/product/cce.html
+    img: baidu-cloud-container-engine.svg
+    name: Baidu Cloud Container Engine
+  - uri: https://www.digitalocean.com/products/kubernetes/
+    img: digital-ocean-kubernetes.svg
+    desc: DigitalOcean Kubernetes is designed for developers who want a simple and
+      cost effective way to deploy container workloads to a managed Kubernetes service.
+    name: DigitalOcean Kubernetes
+  - uri: https://www.ibm.com/cloud/kubernetes-service/
+    img: ibm-kubernetes.svg
+    desc: IBM Cloud Kubernetes Service delivers powerful tools by combining Docker
+      containers, the Kubernetes technology, an intuitive user experience, and built-in
+      security and isolation to automate the deployment, operation, scaling, and monitoring
+      of containerized apps in a cluster of compute hosts.
+    name: IBM Cloud Kubernetes Service
+  - uri: https://mcs.mail.ru/en/
+    img: mail-ru-cloud-containers.svg
+    desc: Mail.Ru Cloud Containers is a managed service for Kubernetes that makes
+      it easy for you to run Kubernetes clusters on any OpenStack-compatible cloud.
+      Mail.Ru Cloud Solutions provides hybrid cloud-based services that enable businesses
+      to run their workload in a public or private cloud.
+    name: Mail.Ru Cloud Containers
+  - uri: https://www.oracle.com/cloud/compute/container-engine-kubernetes.html
+    img: oracle.svg
+    desc: Next generation of container-native development. Container life cycle made
+      easy.
+    name: Oracle Container Engine
+  - uri: https://www.ovh.ie/public-cloud/kubernetes/
+    img: ovh.svg
+    desc: Benefit from free HA managed Kubernetes service by hosting your nodes and
+      services on OVH Public Cloud.
+    name: OVH Managed Kubernetes Service
+  - uri: https://www.rackspace.com/managed-kubernetes
+    img: rackspace.svg
+    name: Rackspace Kubernetes-as-a-Service
+  - uri: https://www.openshift.com/products/dedicated/
+    img: Logo-Red_Hat-OpenShift_Dedicated-A-Standard-RGB.svg
+    desc: OpenShift® Dedicated helps organizations focus on building and scaling their
+      business with a private Kubernetes cluster fully-managed by Red Hat®.
+    name: Red Hat OpenShift Dedicated
+  - uri: https://www.scaleway.com/en/betas/
+    img: scaleway.svg
+    desc: Kubernetes Kapsule provides a simple way to deploy and manage your containerized
+      applications in the cloud. Relax and focus on your software stack while we take
+      care of your clusters.
+    name: Scaleway Kubernetes Kapsule
+  - uri: https://cloudplatform.sap.com/index.html
+    img: sap-certified-gardener.svg
+    desc: SAP Cloud Platform is an open platform which provides customers and partners
+      with in-memory capabilities, core platform services, and unique business services
+      for building and extending personalized, collaborative, mobile-enabled cloud
+      applications.
+    name: SAP Certified Gardener
+  - uri: https://github.com/kubernetes/kubernetes/tree/master/cluster
+    img: google-cloud.svg
+    name: Google Kube-Up
+  - uri: https://github.com/kubernetes-sigs/kind
+    img: kind.svg
+    desc: kind creates local multi-node Kubernetes clusters using Docker container
+      nodes.
+    name: kind
+  - uri: https://github.com/kubernetes/kops
+    img: kops.svg
+    desc: kops is open source, community-maintained tooling for production-grade kubernetes
+      cluster installation, management and upgrades.
+    name: kops
+  - uri: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
+    img: kubeadm.svg
+    desc: Kubeadm is a tool built to provide best-practice "fast paths" for creating
+      Kubernetes clusters. It performs the actions necessary to get a minimum viable,
+      secure cluster up and running in a user friendly way.
+    name: Kubeadm
+  - uri: https://www.loodse.com/
+    img: kubeone.svg
+    desc: Lifecycle management tool for Highly-Available Kubernetes clusters
+    name: KubeOne
+  - uri: https://kubespray.io/
+    img: kubespray.svg
+    desc: Deploy a Production Ready Kubernetes Cluster
+    name: Kubespray
+  - uri: https://minikube.sigs.k8s.io
+    img: minikube.svg
+    desc: minikube runs a local Kubernetes cluster on macOS, Linux, and Windows.
+    name: minikube
+  - uri: https://forge.puppet.com/puppetlabs/kubernetes
+    img: puppet.svg
+    desc: This Puppet module installs and configures Kubernetes allowing Kubernetes
+      deployments to be managed using either Open Source Puppet or Puppet Enterprise.
+      Puppet will maintain the state of your Kubernetes deployments automatically.
+      Using this module will help you deploy Kubernetes quicker, using the Puppet
+      DSL to define the state. It is fully open-source and community contributions
+      are welcome.
+    name: puppetlabs-kubernetes
+
+  PaaS & Container Service:
+  - uri: https://atomist.com/
+    img: atomist.svg
+    name: Atomist
+  - uri: https://www.cloudfoundry.org/application-runtime/
+    img: cloudfoundry-applicationruntime.svg
+    desc: Cloud Foundry Application Runtime utilizes containers as part of its DNA,
+      and has since before Docker popularized containers. The new CF Container Runtime
+      gives you more granular control and management of containers with Kubernetes.
+    name: Cloud Foundry Application Runtime
+  - uri: https://flynn.io/
+    img: flynn.svg
+    name: Flynn
+  - uri: https://www.heroku.com
+    img: heroku.svg
+    desc: Developers, teams, and businesses of all sizes use Heroku to deploy, manage,
+      and scale apps.
+    name: Heroku
+  - uri: https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html
+    img: paasta.svg
+    name: PaaSTA
+  - uri: https://platform.sh/
+    img: platform-sh.svg
+    name: Platform.sh
+  - uri: https://www.portainer.io/
+    img: portainer.svg
+    name: Portainer
+  - uri: https://tsuru.io/
+    img: tsuru.svg
+    name: Tsuru
+
+  Tools:
+  - uri: https://www.cloudzero.com/
+    img: cloudzero.svg
+    name: CloudZero
+  - uri: https://dashbird.io/
+    img: dashbird.svg
+    name: Dashbird
+  - uri: https://epsagon.com/
+    img: epsagon.svg
+    name: Epsagon
+  - uri: https://hasura.io/event-triggers
+    img: hasura-graphqlengine.svg
+    name: Hasura GraphQL Engine
+  - uri: https://www.iopipe.com/
+    img: iopipe.svg
+    name: IOpipe
+  - uri: https://www.iron.io/
+    img: iron-io.svg
+    name: Iron.io
+  - uri: https://lumigo.io/
+    img: lumigo.svg
+    name: Lumigo
+  - uri: https://github.com/motdotla/node-lambda
+    img: nodelambda.svg
+    name: Node Lambda
+  - uri: https://scar.readthedocs.io/en/latest/
+    img: scar.svg
+    name: SCAR
+  - uri: https://www.slappforge.com/sigma
+    img: slappforge-sigma.svg
+    desc: Sigma is a serverless application developer tool; a cloud IDE, which helps
+      you rapidly build, test and deploy serverless applications.
+    name: Sigma
+  - uri: https://www.stackery.io/
+    img: stackery.svg
+    name: Stackery
+
+  Serverless Frameworks & Platforms:
+  - uri: http://apex.run
+    img: apex.svg
+    name: Apex
+  - uri: https://arc.codes/
+    img: architect.svg
+    name: Architect
+  - uri: https://serverless.com/
+    img: serverless.svg
+    name: Serverless
+  - uri: https://www.alibabacloud.com/products/function-compute
+    img: alibaba-cloud-function-compute.svg
+    desc: A fully hosted and serverless running environment that takes away the need
+      to manage infrastructure such as servers and enables developers to focus on
+      writing and uploading code.
+    name: Alibaba Cloud Function Compute
+  - uri: https://aws.amazon.com/lambda/
+    img: aws-lambda.svg
+    desc: AWS Lambda lets you run code without provisioning or managing servers. You
+      pay only for the compute time you consume - there is no charge when your code
+      is not running.
+    name: AWS Lambda
+  - uri: https://azure.microsoft.com/en-us/services/functions/
+    img: azure-functions.svg
+    desc: Develop more efficiently with Functions, an event-driven serverless compute
+      platform that can also solve complex orchestration problems. Build and debug
+      locally without additional setup, deploy and operate at scale in the cloud,
+      and integrate services using triggers and bindings.
+    name: Azure Functions
+  - uri: https://www.binaris.com/
+    img: binaris.svg
+    name: Binaris
+  - uri: https://cloud.google.com/functions/
+    img: google-cloud-functions.svg
+    desc: Your development agility comes from building systems composed of small,
+      independent units of functionality focused on doing one thing well. Cloud Functions
+      lets you build and deploy services at the level of a single function, not at
+      the level of entire applications, containers, or VMs.
+    name: Google Cloud Functions
+  - uri: https://www.huaweicloud.com/en-us/product/functionstage.html
+    img: huawei-functionstage.svg
+    desc: FunctionStage is an event-driven function hosting and computing service,
+      that compiles function code and configures running conditions without provisioning
+      or managing servers, thus providing a scalable, maintenance-free, and reliable
+      operation environment for functions. You only pay for what you use.
+    name: Huawei FunctionStage
+  - uri: https://cloud.ibm.com/functions/
+    img: ibmcloud-functions.svg
+    desc: Run your application code without servers, scale it automatically, and pay
+      nothing when it's not in use.
+    name: IBM Cloud Functions
+  - uri: https://stdlib.com/
+    img: stdlib.svg
+    name: StdLib
+  - uri: https://www.twilio.com/runtime/build
+    img: twilio-functions.svg
+    desc: A serverless environment to build and run your Twilio code so you can get
+      to production faster.
+    name: Twilio Functions
+  - uri: https://openwhisk.apache.org/
+    img: apache-openwhisk.svg
+    name: Apache OpenWhisk
+  - uri: https://fission.io/
+    img: fission.svg
+    name: Fission
+  - uri: https://fnproject.io/
+    img: fn.svg
+    name: Fn
+  - uri: https://github.com/knative/docs/
+    img: knative.svg
+    name: Knative
+  - uri: https://kubeless.io/
+    img: kubeless.svg
+    name: Kubeless
+  - uri: https://kyma-project.io
+    img: kyma.svg
+    desc: A flexible and easy way to connect and extend enterprise applications in a cloud-native world.
+    name: Kyma
+  - uri: https://nuclio.io/
+    img: nuclio.svg
+    name: Nuclio
+  - uri: https://www.openfaas.com
+    img: openfaas.svg
+    name: OpenFaaS
+  - uri: https://github.com/virtual-kubelet
+    img: virtual-kubelet.svg
+    name: Virtual Kubelet
+
+  Monitoring:
+  - uri: https://aws.amazon.com/cloudwatch/
+    img: amazon-cloudwatch.svg
+    desc: Amazon CloudWatch is a monitoring and management service built for developers,
+      system operators, site reliability engineers (SRE), and IT managers. CloudWatch
+      provides you with data and actionable insights to monitor your applications,
+      understand and respond to system-wide performance changes, optimize resource
+      utilization, and get a unified view of operational health.
+    name: Amazon CloudWatch
+  - uri: https://cloud.google.com/stackdriver/
+    img: google-stackdriver.svg
+    desc: Stackdriver aggregates metrics, logs, and events from infrastructure, giving
+      developers and operators a rich set of observable signals that speed root-cause
+      analysis and reduce mean time to resolution (MTTR).
+    name: Google Stackdriver
+  - uri: https://grafana.com/
+    img: grafana.svg
+    name: Grafana
+  - uri: https://graphiteapp.org/
+    img: graphite.svg
+    name: Graphite
+  - uri: https://www.nagios.com/
+    img: nagios.svg
+    name: Nagios
+  - uri: https://newrelic.com/
+    img: newrelic.svg
+    name: New Relic
+  - uri: https://prometheus.io/
+    img: prometheus.svg
+    name: Prometheus
+  - uri: https://sysdig.com/
+    img: sysdig-1.svg
+    name: Sysdig
+  - uri: https://www.weave.works/product/cloud/
+    img: weave-cloud.svg
+    desc: Weave Cloud is an automation and management platform for development and
+      DevOps teams. Built-in GitOps workflows are the foundation for improved development
+      velocity through continuous delivery and increased reliability through observability.
+    name: Weave Cloud
+  - uri: https://www.weave.works/oss/scope/
+    img: weave-scope.svg
+    name: Weave Scope
+  - uri: https://www.zabbix.com/
+    img: zabbix.svg
+    name: Zabbix
+
+  Logging:
+  - uri: https://www.fluentd.org/
+    img: fluentd.svg
+    name: Fluentd
+  - uri: https://grafana.com/oss/loki
+    img: grafana-loki.svg
+    name: Grafana Loki
+  - uri: https://www.graylog.org/
+    img: graylog.svg
+    name: Graylog
+  - uri: https://logdna.com
+    img: logdna.svg
+    name: LogDNA
+  - uri: https://www.loggly.com/
+    img: loggly.svg
+    name: Loggly
+  - uri: https://www.elastic.co/products/logstash
+    img: logstash.svg
+    name: Logstash
+  - uri: https://www.splunk.com/
+    img: splunk.svg
+    name: Splunk
+
+  Tracing:
+  - uri: https://www.jaegertracing.io/
+    img: jaeger.svg
+    name: Jaeger
+  - uri: https://opentelemetry.io/
+    img: open-telemetry.svg
+    name: OpenTelemetry
+  - uri: https://opentracing.io/
+    img: open-tracing.svg
+    name: OpenTracing
+  - uri: https://naver.github.io/pinpoint/
+    img: pinpoint.svg
+    name: Pinpoint
+  - uri: https://zipkin.io/
+    img: zipkin.svg
+    name: Zipkin
+
+  Chaos Engineering:
+  - uri: https://chaostoolkit.org/
+    img: chaos-toolkit.svg
+    name: Chaos Toolkit
+  - uri: https://github.com/linki/chaoskube
+    img: chaoskube.svg
+    name: chaoskube
+  - uri: https://litmuschaos.io/
+    img: litmus.svg
+    name: Litmus
+  - uri: https://github.com/bloomberg/powerfulseal
+    img: powerful-seal.svg
+    name: PowerfulSeal
+
+roles:
+- title: CEO
+  start: 2006
+  end: Ongoing
+  employer: 'Infinidim Enterprises'
+  description: |
+    Designing and building microservices clusters, implementing DevOps within SRE framework.
+    Creating, maintaining and enhancing the infinite loop of Coding, Building, Testing, Packaging, Releasing, Configuring and Monitoring.
+
+- title: CTO
+  start: 2001
+  end: 2003
+  employer: 'Telewelt GMBH'
+  description: |
+    Directed technology operations for $50M privately-held telecom carrier. Recruited to bring company up to date technologically. Administered budget. Oversaw staff of 7 project managers and 150 offshore developers. Shifted IT from cost center to partner in business development. Managed outsourcing contracts, recruited personnel, and help desk operations. Developed whitepapers and marketing materials for transition to franchising business model.</br>
+    <ul>
+    <li>Created all new plans for equipment and software retrofitting. Implemented VoIP. Led migration of infrastructure to packet-based switching network to facilitate business growth.</li>
+    <li>Cut internal IT spending from $7M to $2M by optimizing business and support processes.</li>
+    <li>Improved bottom line profits from $1.5M to $4M by creating rapid response support teams and outsourcing maintenance functions to offshore.</li>
+    <li>Produced $8M in revenue in 1 year by attracting new clients from non-IT client sector.</li>
+    <li>Increased performance levels by shifting to open-source billing model integrated with business intelligence, help desk operations, and CRM system.</li>
+    </ul>
+
+- title: Senior Systems Engineer
+  start: 1999
+  end: 2001
+  employer: 'Motorola'
+  uri: 'https://www.motorola.co.uk'
+  description: |
+    Directed data center operations, equipment/software maintenance, and network/systems support for global technology giant. Supervised staff of 20 plus 50 contractors. Provided backend support and developed demonstrations. Led telecom market events. Directed outsourced functions.</br>
+    <ul>
+    <li>Cut server costs 50%, and optimized utilization and TCO for department’s infrastructure by switching to VMWare virtualization solutions. Consolidated backend server farms and procured new technologies.</li>
+    <li>Managed 3rd-level support for R&D and testing environments. Planned R&D lab logistics.</li>
+    <li>Increased revenue by developing charging model for offered services.</li>
+    <li>Planned and directed development and implementation of software solutions, and coordinated deployment of circuits, switches, routers, and communications software.</li>
+    </ul>
+- title: Senior Networks Engineer
+  start: 1997
+  end: 1999
+  employer: 'Gilat Satellite Networks'
+  uri: 'https://www.gilat.com'
+  description: |
+    Supervised staff of 20. Directed laboratory setups, operations, network, 3rd-level technical support, and satellite segment implementation scenario design. Created test cases. Integrated 3rd party solutions into company products. Assisted with pre-sales support. Performed satellite network performance tuning and optimization.</br>
+    <ul>
+    <li>Created systems security policy and deployed solution into all product lines.</li>
+    <li>Lowered helpdesk calls 70% by separating R&D from corporate network environment.</li>
+    <li>Reduced development cycle times 65% by designing and implementing compiling cluster.</li>
+    <li>Promoted home QA program where all developers and technical support staff had VSATs at home for review. Managed R&D of network architectural and topological design.</li>
+    </ul>
+
+- title: Network Security Analyst
+  start: 1995
+  end: 1997
+  employer: 'Tadiran datacom'
+  uri: 'https://www.tadiran-group.co.il'
+  description: |
+    Carried out network/system security functions for global defense industry contractor. Developed and performed new methodologies of penetration testing, OS hardening, and infrastructure evaluation. Prepared and delivered reports.<br/>
+    <ul>
+    <li>Designed and developed innovative software and methods for stress testing security infrastructure.</li>
+    <li>Developed highly effective contingency plans to facilitate rapid network recovery.</li>
+    </ul>
+
+education:
+- level: MBA
+  date: 2003
+  subject: 'Management and Finance'
+  school: McGill University - Canada
+- level: 'M.Sc.'
+  date: 2000
+  subject: 'Networks Engineering & Communications Systems'
+  school: Technical University - Kishenev
+- level: 'B.Sc.'
+  date: 1997
+  subject: 'Systems Engineering & Software Design'
+  school: Technical University - Kishenev
+
+
+intro: |
+  I am an engineer with 25 years of experience working in IT.<br/>
+  Started out as a pen-tester and security analyst for a defense contractor, progressed through project and IT/MIS management roles and sometime in 2006 decided to switch to a more hands-on track, hence a small consultancy firm was born.
+  <br/>
+  I spent a large portion of my time, working in datacenters, integration labs and development teams.
+  <br/>
+  Been exposed to and acquired expertise across a broad spectrum of tools, methodologies and techniques.
+  <br/>
+  Primary focus is building, maintaining and enhancing within DevOps paradigm.
+  <br/>
+  <br/>
+  <strong>Infrastructure as code & declarative over convergent configuration</strong>
+  <br/>
+  <ul>
+  <li>Working, protocol level knowledge of networking - tracing, debugging across the OSI stack</li>
+  <li>Cloud architect and microservices designer - on-premise, hybrid, distributed</li>
+  <li>Software engineering - full-stack minus the front-end</li>
+  </ul>
+
+  <br/>
+  My daily driver is <a href="https://nixos.org" target="_blank">NixOS</a>, has been so for many years and before that I used <a href="https://www.archlinux.org" target="_blank">Arch-linux</a>, with <a href="http://www.slackware.com" target="_blank">slackware</a> being the first distro I picked up, back in 1993.
+  <br/>
+  <br/>

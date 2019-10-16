@@ -1,0 +1,37 @@
+<div id="skillsBubble" class="rounded_panel txt_lightgrey">
+	  <div class="top-rounded-panel grey-bg">
+		    <h1 id="user-skills">Tools, languages, frameworks</h1>
+	  </div>
+	  <div class="content-rounded-panel">
+		    <div id="skills">
+			      {% for cat_hash in site.skills_with_links %}
+
+            <span class="label label-info label-padded skill-span"
+                  data-toggle="collapse"
+                  href="#{{ cat_hash[0] | replace: " " "-" | replace: "&" "-and-" }}"
+                  aria-expanded="false"
+                  aria-controls="{{ cat_hash[0] | replace: " " "-" | replace: "&" "-and-" }}">
+                {{ cat_hash[0] }}
+            </span> &nbsp;
+
+            <div class="collapse" id="{{ cat_hash[0] | replace: " " "-" | replace: "&" "-and-" }}">
+
+                    {% for skill in cat_hash[1] %}
+                    <a href="{{ skill.uri }}" target="_blank">
+                        <img src="img/{{ skill.img }}"
+                             title="{% if skill.desc %}{{skill.desc}}{% else %}{{ skill.name }}{% endif %}"
+                             style="width: 68px;
+                                  height: 60px;
+                                  border: 2px solid grey;
+                                  margin: 2px;
+                                  padding: 3px;
+                                  border-radius: 4px;">
+                    </a>
+                    {% endfor %}
+            </div>
+
+			      {% endfor %}
+
+		    </div>
+	  </div>
+</div>
