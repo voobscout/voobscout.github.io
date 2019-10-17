@@ -45,6 +45,11 @@ skills_with_links:
   - uri: https://www.python.org
     img: python.png
     name: Python
+  - uri: https://nixos.org/nix/
+    img: nixos.png
+    name: Nix
+    desc: |
+      Nix is a powerful functional package language and manager for Linux and other Unix systems. It provides atomic upgrades and rollbacks, side-by-side installation of multiple versions of a package, multi-user package management and easy setup of build environments.
   - uri: https://www.gnu.org/software/bash
     img: bash-shell-logo.jpg
     name: Bash
@@ -1060,6 +1065,7 @@ roles:
   start: 2006
   end: Ongoing
   employer: 'Infinidim Enterprises'
+  uri: https://bortman.org
   description: |
     Designing and building microservices clusters, implementing DevOps within SRE framework.
     Creating, maintaining and enhancing the infinite loop of Coding, Building, Testing, Packaging, Releasing, Configuring and Monitoring.
@@ -1131,27 +1137,20 @@ education:
   subject: 'Systems Engineering & Software Design'
   school: Technical University - Kishenev
 
-
 intro: |
-  I am an engineer with 25 years of experience working in IT.<br/>
-  Started out as a pen-tester and security analyst for a defense contractor, progressed through project and IT/MIS management roles and sometime in 2006 decided to switch to a more hands-on track, hence a small consultancy firm was born.
-  <br/>
-  I spent a large portion of my time, working in datacenters, integration labs and development teams.
-  <br/>
-  Been exposed to and acquired expertise across a broad spectrum of tools, methodologies and techniques.
-  <br/>
-  Primary focus is building, maintaining and enhancing within DevOps paradigm.
-  <br/>
-  <br/>
-  <strong>Infrastructure as code & declarative over convergent configuration</strong>
-  <br/>
+  I am an engineer with 25+ years of hands-on experience in architecting / automating and optimizing mission critical deployments over large infrastructures.
+  <br/><br/>
   <ul>
-  <li>Working, protocol level knowledge of networking - tracing, debugging across the OSI stack</li>
-  <li>Cloud architect and microservices designer - on-premise, hybrid, distributed</li>
-  <li>Software engineering - full-stack minus the front-end</li>
+  <li>25+ years experience with Unix (Sun,AIX,Irix,HP-Ux) and Linux administration, including packaging for deb/rpm/pac.</li>
+  <li>Working effectively within a team and with minimal supervision.</li>
+  <li>Demonstrated ability to effectively establish and maintain working relationships across disciplines and organizations.</li>
+  <li>Flexible and adaptable; able to work in ambiguous situations.</li>
+  <li>Proficient with Git and Git workflows.</li>
+  <li>Extensive experience with Bash, Perl, Python, Ruby.</li>
+  <li>Protocol level knowledge of networking - tracing, debugging across the OSI stack.</li>
+  <li>Proficient VoIP Engineer - Asterisk / Freeswitch clusters, experience developing with <a title="A framework for the development of applications which interact with or control voice communications." href="http://www.adhearsion.com" target="_blank">Adhearsion</a>.</li>
+  <li>Designing, building and deploying highly available / responsive systems.</li>
+  <li>Proficient in developing Continuous Integration/ Delivery pipelines.</li>
   </ul>
-
   <br/>
-  My daily driver is <a href="https://nixos.org" target="_blank">NixOS</a>, has been so for many years and before that I used <a href="https://www.archlinux.org" target="_blank">Arch-linux</a>, with <a href="http://www.slackware.com" target="_blank">slackware</a> being the first distro I picked up, back in 1993.
-  <br/>
-  <br/>
+  My daily driver is <a title="A Lisp dialect with extensions to support text editing." href="https://www.gnu.org/software/emacs" target="_blank">Emacs</a> in <a title="Common Lisp, tiling, keyboard driven X11 Window Manager." href="https://github.com/stumpwm/stumpwm" target="_blank">StumpWM</a> on <a title="A Linux distribution with a completely declarative package and configuration management." href="https://nixos.org" target="_blank">NixOS</a> and my motto - declarative infrastructure as code.
