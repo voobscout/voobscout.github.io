@@ -2,6 +2,14 @@
 title: Alexander Bortman
 name: DevOps Engineer & Cloud Architect
 
+# plugins:
+#   - jekyll-analytics
+
+# jekyll_analytics:
+#   GoogleAnalytics:
+#     id: UA-150304596-1
+#     anonymizeIp: false
+
 # Build settings
 markdown: kramdown
 
@@ -36,6 +44,11 @@ skills_with_links:
   - uri: https://crystal-lang.org
     img: crystal-lang.png
     name: Crystal
+  - uri: https://cucumber.io/docs
+    img: cucumber-black-128.png
+    name: Gherkin
+    desc: |
+      A tool that supports Behaviour-Driven Development (BDD) - a process that aims to enhance software quality and reduce maintenance costs.
   - uri: https://www.gnu.org/software/guile
     img: guile.png
     name: Guile
@@ -1141,7 +1154,7 @@ intro: |
   I am an engineer with 25+ years of hands-on experience in architecting / automating and optimizing mission critical deployments over large infrastructures.
   <br/><br/>
   <ul>
-  <li>25+ years experience with Unix (Sun,AIX,Irix,HP-Ux) and Linux administration, including packaging for deb/rpm/pac.</li>
+  <li>25+ years experience with Unix (Sun, AIX, Irix, HP-Ux) and Linux administration, including packaging for deb/rpm/pac.</li>
   <li>Working effectively within a team and with minimal supervision.</li>
   <li>Demonstrated ability to effectively establish and maintain working relationships across disciplines and organizations.</li>
   <li>Flexible and adaptable; able to work in ambiguous situations.</li>
@@ -1151,6 +1164,7 @@ intro: |
   <li>Proficient VoIP Engineer - Asterisk / Freeswitch clusters, experience developing with <a title="A framework for the development of applications which interact with or control voice communications." href="http://www.adhearsion.com" target="_blank">Adhearsion</a>.</li>
   <li>Designing, building and deploying highly available / responsive systems.</li>
   <li>Proficient in developing Continuous Integration/ Delivery pipelines.</li>
+  <li>BDD / ATDD </li>
   </ul>
   <br/>
   My daily driver is <a title="A Lisp dialect with extensions to support text editing." href="https://www.gnu.org/software/emacs" target="_blank">Emacs</a> in <a title="Common Lisp, tiling, keyboard driven X11 Window Manager." href="https://github.com/stumpwm/stumpwm" target="_blank">StumpWM</a> on <a title="A Linux distribution with a completely declarative package and configuration management." href="https://nixos.org" target="_blank">NixOS</a> and my motto - declarative infrastructure as code.
