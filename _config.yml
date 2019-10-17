@@ -1164,7 +1164,7 @@ intro: |
   <li>Proficient VoIP Engineer - Asterisk / Freeswitch clusters, experience developing with <a title="A framework for the development of applications which interact with or control voice communications." href="http://www.adhearsion.com" target="_blank">Adhearsion</a>.</li>
   <li>Designing, building and deploying highly available / responsive systems.</li>
   <li>Proficient in developing Continuous Integration/ Delivery pipelines.</li>
-  <li>BDD / ATDD </li>
+  <li>BDD / ATDD advocate</li>
   </ul>
   <br/>
   My daily driver is <a title="A Lisp dialect with extensions to support text editing." href="https://www.gnu.org/software/emacs" target="_blank">Emacs</a> in <a title="Common Lisp, tiling, keyboard driven X11 Window Manager." href="https://github.com/stumpwm/stumpwm" target="_blank">StumpWM</a> on <a title="A Linux distribution with a completely declarative package and configuration management." href="https://nixos.org" target="_blank">NixOS</a> and my motto - declarative infrastructure as code.
