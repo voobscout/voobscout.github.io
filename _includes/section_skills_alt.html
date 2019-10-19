@@ -16,18 +16,12 @@
 
             <div class="collapse" id="{{ cat_hash[0] | replace: " " "-" | replace: "&" "-and-" }}">
 
-                    {% for skill in cat_hash[1] %}
-                    <a href="{{ skill.uri }}" target="_blank">
-                        <img src="img/{{ skill.img }}"
-                             title="{% if skill.desc %}{{skill.desc}}{% else %}{{ skill.name }}{% endif %}"
-                             style="width: 68px;
-                                  height: 60px;
-                                  border: 2px solid grey;
-                                  margin: 2px;
-                                  padding: 3px;
-                                  border-radius: 4px;">
-                    </a>
-                    {% endfor %}
+                {% for skill in cat_hash[1] %}
+                <a href="{{ skill.uri }}" target="_blank">
+                    <img src="img/{{ skill.img }}" class="skill-img"
+                         title="{% if skill.desc %}{{skill.desc}}{% else %}{{ skill.name }}{% endif %}">
+                </a>
+                {% endfor %}
             </div>
 
 			      {% endfor %}
