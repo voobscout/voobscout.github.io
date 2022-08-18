@@ -460,13 +460,13 @@ td.loginRow {
     border-radius:3px
 }.
 
-//Well Blockquote
+/* Well Blockquote */
 .well blockquote{
     border-color:#ddd;
     border-color:rgba(0,0,0,.15)
 }
 
-// TODO:
+/* TODO: */
 .skillbox-0 {
     // height: 300px;
     padding-right:0;
